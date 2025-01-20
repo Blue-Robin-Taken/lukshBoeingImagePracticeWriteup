@@ -73,7 +73,28 @@ Answer: `579c81f568f7c29e169413de59514e21afa79aa0787df62272e11a71fd42dabc`
 
 ## Challenge #4
 
+```
+There is a message.txt on this system. It was sent from an employee at Airbus, so it is critical that we get the message. However, the employee at Airbus said seeing the message won't be as simple as opening the file. Figure out what the message is.
+---------------------------------------------------------------------------------------------------------------------------------
+
+Answer:
+```
+
+You can easily find the file by CDing into `Desktop`. However, the file data is a bit more difficult to obtain.
+
+Opening the file only shows:
+![what the file shows](image-4.png)
+
+Which is obviously incorrect. So, instead, try to get the extended metadata of the file. You can find more information about that here: https://www.linkedin.com/pulse/linux-incident-response-understanding-extended-attributes-taz-wake-091cf/
+
+For this, we can use the `getfattr` command:
+![getfattr](image-6.png)
+
+Answer: `unauthorized user deleted`
+
 ## Challenge #5
+
+
 
 ## Challenge #6
 
