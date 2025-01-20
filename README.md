@@ -155,3 +155,7 @@ find /etc -mindepth 1 -maxdepth 1 -type d | wc -l
 ```
 
 Answer: `129`
+
+## Scoring report
+
+![Scoring report](image-10.png)
