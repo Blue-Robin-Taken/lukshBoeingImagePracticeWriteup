@@ -140,3 +140,18 @@ I hate this forensic (because of its ambiguity) so much but the answer is self-e
 Answer: `du -s /home/boing`
 
 ## Challenge #8
+
+```
+The FAA is requiring us to do an audit of our system. How many directories are inside of /etc? (Do not include subdirectories)
+---------------------------------------------------------------------------------------------------------------------------------
+
+ANSWER:
+```
+
+You can use the find command and count the amount of lines it finds:
+
+```
+find /etc -mindepth 1 -maxdepth 1 -type d | wc -l
+```
+
+Answer: `129`
