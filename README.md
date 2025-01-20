@@ -111,6 +111,21 @@ Answer: `/etc/whatamidoinghere/main.ps1`
 
 ## Challenge #6
 
+```
+The same disgruntled employee left a message for us in a txt file. The name of the file contains burg, but not much else is known about the file. What is in that file.
+---------------------------------------------------------------------------------------------------------------------------------
+
+ANSWER:
+```
+
+You can also use the find command for this one:
+
+![alt text](image-9.png)
+Highlighted is the file that you need.
+Catting the file shows the answer.
+
+Answer: `I sure love these new cp shirts`
+
 ## Challenge #7
 
 ## Challenge #8
