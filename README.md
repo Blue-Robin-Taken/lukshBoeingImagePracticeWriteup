@@ -58,6 +58,19 @@ Answer: `bongbong`
 
 ## Challenge #3
 
+```
+Boing has downloaded a file that is meant to be some flight numbers in Guam today. In order to validate we recieved the correct flight numbers we need the sha256sum. What is the sha256sum of the file? (Hint: Boing tried to hide the file from us)
+---------------------------------------------------------------------------------------------------------------------------------
+
+ANSWER:
+```
+
+You can assume that because they downloaded a file, it'll be in `Downloads`.
+From there, you can find the `.flightnums.txt` file by `ls -a` and getting the sha256sum via the sha256sum command.
+![Solving](image-3.png)
+
+Answer: `579c81f568f7c29e169413de59514e21afa79aa0787df62272e11a71fd42dabc`
+
 ## Challenge #4
 
 ## Challenge #5
