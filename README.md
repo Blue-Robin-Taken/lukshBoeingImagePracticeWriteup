@@ -94,7 +94,20 @@ Answer: `unauthorized user deleted`
 
 ## Challenge #5
 
+```
+A disgruntled employee left a powershell script somewhere on this system. In order to gather evidence for out lawsuit we need to find the powershell script. Please provide the full path of the powershell script.
+---------------------------------------------------------------------------------------------------------------------------------
 
+ANSWER:
+```
+
+For this one, you can just use the `find` command and `2>/dev/null` to suppress errors:
+![answer](image-7.png)
+The `/etc/whatamidoinghere/main.ps1` is the file that you need. You don't need to cat it. However, if you do:
+![skull](image-8.png)
+💀
+
+Answer: `/etc/whatamidoinghere/main.ps1`
 
 ## Challenge #6
 
