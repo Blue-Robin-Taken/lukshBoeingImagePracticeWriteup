@@ -128,4 +128,15 @@ Answer: `I sure love these new cp shirts`
 
 ## Challenge #7
 
+```
+Management would like to know the disk usage for /home/boing and all of its subdirectories. Please provide a command that would output this information. Management does not like overcomplification, so please keep it as simplified as possible.
+---------------------------------------------------------------------------------------------------------------------------------
+
+ANSWER:
+```
+
+I hate this forensic (because of its ambiguity) so much but the answer is self-explanatory. `du` is disk usage. `-s` is summary 💀. I originally thought that it wanted the individual subdirs which `du` already does... anyway...
+
+Answer: `du -s /home/boing`
+
 ## Challenge #8
