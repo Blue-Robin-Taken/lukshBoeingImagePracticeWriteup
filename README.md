@@ -24,7 +24,7 @@ The entire system is a bunch of forensics.
 What is the full path of the file that allowed you to see the password when you tried logging into this system?
 ---------------------------------------------------------------------------------------------------------------------------------
 
-ANSWER:/etc/pam.d/common-auth
+ANSWER:
 ```
 
 To find the file we can look online for how this would work.
@@ -43,6 +43,18 @@ Hence, we can assume that this is the file.
 Answer: `/etc/pam.d/common-password`
 
 ## Challenge #2
+
+```
+We have recieved intel of a boeing whistleblower's name. We have gotten this information via something called an md5. Nobody here knows what it is, but we must figure it out. This is what we got: 5b9c6d8c9e8901971fd4ca19c8364c5d
+---------------------------------------------------------------------------------------------------------------------------------
+
+ANSWER:
+```
+
+We can easily put this into a hash cracker online. https://crackstation.net/ works perfectly.
+![I hate ambiguity](image-2.png)
+
+Answer: `bongbong`
 
 ## Challenge #3
 
